@@ -23,7 +23,7 @@ searchBtn.addEventListener('click', function () {
         error.innerText = 'search result can not be empty';
         error.style.textAlign = "center";
         error.style.color = "red";
-        // searchCount.innerText = 0;
+
         booksContainer.innerHTML = '';
 
         return;
@@ -55,7 +55,7 @@ function displayBook(books) {
         error.innerText = 'No result found';
         error.style.textAlign = "center";
         error.style.color = "red";
-        // searchCount.innerText = 0;
+
         booksContainer.innerHTML = '';
 
         return;
