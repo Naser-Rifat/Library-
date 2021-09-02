@@ -14,6 +14,7 @@ searchBtn.addEventListener('click', function () {
 
     const search = searchInput.value;
     totalResult.style.display = 'block';
+    searchCount.innerText = 0;
 
 
     //error handling
