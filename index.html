@@ -8,8 +8,51 @@
     <title>Books</title>
 </head>
 
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 <body>
 
+
+
+    <main class="container my-5">
+
+        <h1 class="text-center"> Book Archive</h1>
+        <!-- search-area -->
+
+        <section>
+            <div class="m-4  text-center p-0">
+                <input id="search-input" class="form-control w-50 d-inline-block m-0 pe-0 " type="text"
+                    placeholder="Search your favourite books">
+                <button id="search-btn" class="btn btn-dark text-white mb-1 ms-0">search</button>
+            </div>
+
+        </section>
+
+        <!-- total-search-count -->
+        <h6 id="total-result" class="text-center mb-3">Total search result: <span id='search-count'>0</span></h6>
+
+
+        <!-- error-message -->
+        <div id="error"></div>
+
+
+
+        <!-- books-Container -->
+        <section id="books-container" class="row mt-5">
+
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- js -->
+    <script src="js/books.js"></script>
 </body>
 
 </html>
